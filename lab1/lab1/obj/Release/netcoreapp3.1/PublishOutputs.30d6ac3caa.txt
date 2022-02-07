@@ -1,0 +1,5 @@
+D:\KPI\Прога2\lab1\lab1.exe
+D:\KPI\Прога2\lab1\lab1.dll
+D:\KPI\Прога2\lab1\lab1.deps.json
+D:\KPI\Прога2\lab1\lab1.runtimeconfig.json
+D:\KPI\Прога2\lab1\lab1.pdb
