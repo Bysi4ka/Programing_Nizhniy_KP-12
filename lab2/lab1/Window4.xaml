@@ -1,0 +1,119 @@
+﻿<Window x:Class="lab1.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="b3" Content="main" HorizontalAlignment="Left" Height="40" Margin="674,40,0,0" VerticalAlignment="Top" Width="103" Click="b3_Click"/>
+        <ComboBox x:Name="p00" HorizontalAlignment="Left" Height="45" Margin="184,101,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy" HorizontalAlignment="Left" Height="45" Margin="234,101,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy1" HorizontalAlignment="Left" Height="45" Margin="285,101,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy2" HorizontalAlignment="Left" Height="45" Margin="335,101,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy3" HorizontalAlignment="Left" Height="45" Margin="385,101,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy4" HorizontalAlignment="Left" Height="45" Margin="184,151,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy5" HorizontalAlignment="Left" Height="45" Margin="234,151,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy6" HorizontalAlignment="Left" Height="45" Margin="285,151,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy7" HorizontalAlignment="Left" Height="45" Margin="335,151,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy8" HorizontalAlignment="Left" Height="45" Margin="385,151,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy9" HorizontalAlignment="Left" Height="45" Margin="184,201,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy10" HorizontalAlignment="Left" Height="45" Margin="234,201,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy11" HorizontalAlignment="Left" Height="45" Margin="285,201,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy12" HorizontalAlignment="Left" Height="45" Margin="335,201,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy13" HorizontalAlignment="Left" Height="45" Margin="385,201,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy14" HorizontalAlignment="Left" Height="45" Margin="184,251,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy15" HorizontalAlignment="Left" Height="45" Margin="234,251,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy16" HorizontalAlignment="Left" Height="45" Margin="285,251,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy17" HorizontalAlignment="Left" Height="45" Margin="335,251,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy18" HorizontalAlignment="Left" Height="45" Margin="385,251,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy19" HorizontalAlignment="Left" Height="45" Margin="184,301,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy20" HorizontalAlignment="Left" Height="45" Margin="234,301,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy21" HorizontalAlignment="Left" Height="45" Margin="285,301,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy22" HorizontalAlignment="Left" Height="45" Margin="335,301,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy23" HorizontalAlignment="Left" Height="45" Margin="385,301,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <ComboBox x:Name="p00_Copy24" HorizontalAlignment="Left" Height="46" Margin="33,124,0,0" VerticalAlignment="Top" Width="45">
+            <ListBoxItem Content="X"/>
+            <ListBoxItem Content="O"/>
+        </ComboBox>
+        <Label Content="Choose your side" HorizontalAlignment="Left" Height="25" Margin="10,89,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="b2_Copy2" Content="exit" HorizontalAlignment="Left" Height="40" Margin="657,339,0,0" VerticalAlignment="Top" Width="103" Click="b2_Copy2_Click"/>
+
+    </Grid>
+</Window>
