@@ -1,0 +1,16 @@
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\lol.exe
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\lol.deps.json
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\lol.runtimeconfig.json
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\lol.runtimeconfig.dev.json
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\lol.dll
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\ref\lol.dll
+D:\KPI\Прога2\lol\lol\bin\Debug\net5.0\lol.pdb
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.csproj.AssemblyReference.cache
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.GeneratedMSBuildEditorConfig.editorconfig
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.AssemblyInfoInputs.cache
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.AssemblyInfo.cs
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.csproj.CoreCompileInputs.cache
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.dll
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\ref\lol.dll
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.pdb
+D:\KPI\Прога2\lol\lol\obj\Debug\net5.0\lol.genruntimeconfig.cache

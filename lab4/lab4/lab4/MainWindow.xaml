@@ -18,8 +18,8 @@
         <DataGrid Name ="firmbook" HorizontalAlignment="Left" Height="448" VerticalAlignment="Top" Width="314" Grid.ColumnSpan="2"/>
         <DataGrid Name ="forsale" HorizontalAlignment="Left" Height="448" VerticalAlignment="Top" Width="314" Grid.Column="1" Margin="401,0,0,0"/>
         <DataGrid Name ="sold" HorizontalAlignment="Left" Height="448" VerticalAlignment="Top" Width="314" Grid.Column="1" Margin="839,0,0,0" Grid.ColumnSpan="2"/>
-        <DataGrid Name ="seller" HorizontalAlignment="Left" Height="302" VerticalAlignment="Top" Width="544" Margin="-1,480,0,0" Grid.ColumnSpan="2"/>
-        <DataGrid Name ="byer" HorizontalAlignment="Left" Height="302" VerticalAlignment="Top" Width="544" Margin="608,482,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <DataGrid Name ="seller" HorizontalAlignment="Left" Height="302" VerticalAlignment="Top" Width="544" Margin="8,480,0,0" Grid.ColumnSpan="2"/>
+        <DataGrid Name ="byer" HorizontalAlignment="Left" Height="302" VerticalAlignment="Top" Width="544" Margin="602,482,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
 
     </Grid>
 </Window>
