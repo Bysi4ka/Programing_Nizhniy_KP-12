@@ -1,0 +1,26 @@
+﻿<Window x:Class="prac3.registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prac3"
+        mc:Ignorable="d"
+        Title="User" Height="550" Width="900" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Реєстрація" Height="61" Margin="293,34,294,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center"/>
+        <Label Content="Ім'я" HorizontalAlignment="Left" Height="40" Margin="46,129,0,0" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <Label Content="Прізвище" HorizontalAlignment="Left" Height="40" Margin="46,195,0,0" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Height="40" Margin="46,310,0,0" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <Label Content="Повтор пароля" HorizontalAlignment="Left" Height="40" Margin="46,374,0,0" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="40" Margin="253,129,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="18"/>
+        <TextBox x:Name="surname" HorizontalAlignment="Left" Height="40" Margin="253,195,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="18"/>
+        <TextBox x:Name="pas" HorizontalAlignment="Left" Height="40" Margin="253,310,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="18"/>
+        <TextBox x:Name="pas2" HorizontalAlignment="Left" Height="40" Margin="253,374,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="18"/>
+        <Button x:Name="update" Content="Зареєструватися" HorizontalAlignment="Left" Height="33" Margin="46,433,0,0" VerticalAlignment="Top" Width="473" FontSize="18" Click="update_Click" FontWeight="Bold"/>
+        <Button Content="Вийти з сестеми" HorizontalAlignment="Left" Height="33" Margin="655,325,0,0" VerticalAlignment="Top" Width="159" FontSize="18" Click="Button_Click" FontWeight="Bold"/>
+        <Button Content="Головне меню" HorizontalAlignment="Left" Height="33" Margin="655,382,0,0" VerticalAlignment="Top" Width="159" FontSize="18" Click="Button_Click_1" FontWeight="Bold"/>
+        <Label Content="Логін" HorizontalAlignment="Left" Height="40" Margin="46,255,0,0" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="40" Margin="253,255,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="18"/>
+
+    </Grid>
+</Window>
