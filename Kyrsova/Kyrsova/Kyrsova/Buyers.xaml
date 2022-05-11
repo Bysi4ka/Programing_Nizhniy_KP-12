@@ -1,0 +1,29 @@
+﻿<Window x:Class="Kyrsova.Buyers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kyrsova"
+        mc:Ignorable="d"
+        Title="Buyers" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Height="484" Margin="390,-28,391.6,-36" VerticalAlignment="Top" Background="Silver"/>
+        <Label Content="Додати" HorizontalAlignment="Left" Height="48" Margin="149,25,0,0" VerticalAlignment="Top" Width="87" FontSize="17"/>
+        <Label Content="Змінити/видалити" HorizontalAlignment="Left" Height="48" Margin="515,25,0,0" VerticalAlignment="Top" Width="166" FontSize="17"/>
+        <Label Content="Ім'я" HorizontalAlignment="Left" Height="48" Margin="31,118,0,0" VerticalAlignment="Top" Width="87" FontSize="17"/>
+        <Label Content="Прізвище" HorizontalAlignment="Left" Height="48" Margin="31,189,0,0" VerticalAlignment="Top" Width="87" FontSize="17"/>
+        <Button x:Name="addB" Content="Додати" HorizontalAlignment="Left" Height="48" Margin="31,258,0,0" VerticalAlignment="Top" Width="337" FontSize="17" Click="addB_Click"/>
+        <TextBox x:Name="nameT" HorizontalAlignment="Left" Height="33" Margin="149,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="219" FontSize="17"/>
+        <TextBox x:Name="surnameT" HorizontalAlignment="Left" Height="33" Margin="149,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="219" FontSize="17"/>
+        <Label Content="ID" HorizontalAlignment="Left" Height="48" Margin="425,120,0,0" VerticalAlignment="Top" Width="87" FontSize="17"/>
+        <ComboBox x:Name="CB" HorizontalAlignment="Left" Height="40" Margin="542,116,0,0" VerticalAlignment="Top" Width="66" FontSize="17" SelectionChanged="CB_SelectionChanged"/>
+        <Button x:Name="deleteB" Content="Видалити" HorizontalAlignment="Left" Height="40" Margin="647,116,0,0" VerticalAlignment="Top" Width="114" FontSize="17" Click="deleteB_Click"/>
+        <Label Content="Ім'я" HorizontalAlignment="Left" Height="48" Margin="425,183,0,0" VerticalAlignment="Top" Width="87" FontSize="17"/>
+        <Label Content="Прізвище" HorizontalAlignment="Left" Height="48" Margin="425,254,0,0" VerticalAlignment="Top" Width="87" FontSize="17"/>
+        <TextBox x:Name="nameT2" HorizontalAlignment="Left" Height="33" Margin="542,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="219" FontSize="17"/>
+        <TextBox x:Name="surnameT2" HorizontalAlignment="Left" Height="33" Margin="542,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="219" FontSize="17"/>
+        <Button x:Name="changeB" Content="Змінити" HorizontalAlignment="Left" Height="48" Margin="439,322,0,0" VerticalAlignment="Top" Width="337" FontSize="17" Click="changeB_Click"/>
+        <Button x:Name="mw" Content="Головне меню" HorizontalAlignment="Left" Height="48" Margin="31,322,0,0" VerticalAlignment="Top" Width="337" FontSize="17" Click="mw_Click"/>
+
+    </Grid>
+</Window>

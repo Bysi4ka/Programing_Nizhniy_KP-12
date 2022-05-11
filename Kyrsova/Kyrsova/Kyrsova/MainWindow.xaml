@@ -1,0 +1,23 @@
+﻿<Window x:Class="Kyrsova.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kyrsova"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="900" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="262*"/>
+            <RowDefinition Height="259*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Проведення аукціонів" Height="84" Margin="361,27,222.6,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Width="310"/>
+        <Button x:Name="gotofirmbo" Content="Книга фірми" HorizontalAlignment="Left" Height="42" Margin="89,116,0,0" VerticalAlignment="Top" Width="309" Click="gotofirmbo_Click" FontSize="17"/>
+        <Button x:Name="gotosellers" Content="Продавці" HorizontalAlignment="Left" Height="42" Margin="89,210,0,0" VerticalAlignment="Top" Width="309" Click="gotosellers_Click" FontSize="17"/>
+        <Button x:Name="gotobuyers" Content="Покупці" HorizontalAlignment="Left" Height="42" Margin="89,36.4,0,0" VerticalAlignment="Top" Width="309" Click="gotosellers_Copy_Click" FontSize="17" Grid.Row="1"/>
+
+    </Grid>
+</Window>
